@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.admin.lms.Main6Activity5">
+
+    <Button
+        android:id="@+id/etlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/etLogout"
+        android:layout_centerHorizontal="true"
+        android:text="@string/logout4" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/select_categories8" />
+
+    <ImageView
+        android:id="@+id/etLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText4"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo9"
+        android:onClick="log"
+        app:srcCompat="@drawable/img5" />
+
+    <Button
+        android:id="@+id/etring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etBangle"
+        android:layout_alignLeft="@+id/etBangle"
+        android:layout_alignStart="@+id/etBangle"
+        android:layout_marginBottom="33dp"
+        android:onClick="ring"
+        android:text="@string/ring11" />
+
+    <Button
+        android:id="@+id/etBangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etearing"
+        android:layout_alignStart="@+id/etearing"
+        android:layout_centerVertical="true"
+        android:onClick="bag"
+        android:text="@string/bangle11" />
+
+    <Button
+        android:id="@+id/etearing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etlogout"
+        android:layout_alignLeft="@+id/etlogout"
+        android:layout_alignStart="@+id/etlogout"
+        android:layout_marginBottom="51dp"
+        android:onClick="ear"
+        android:text="@string/earing12" />
+
+</RelativeLayout>

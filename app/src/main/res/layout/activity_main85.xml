@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.admin.lms.Main8Activity5">
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText5"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/todo7"
+        app:srcCompat="@drawable/n1" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView21"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView21"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="@string/product_entry11"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/product_id11"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_below="@+id/editText5"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="@string/product_name11"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_below="@+id/editText6"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:hint="@string/select_image11"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText6"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/editText6"
+        android:layout_marginBottom="64dp"
+        android:ems="10"
+        android:hint="@string/price11"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/submit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:onClick="sub1"
+        android:text="@string/submit1" />
+
+</RelativeLayout>

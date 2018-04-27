@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.admin.lms.Main2">
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="105dp"
+        android:ems="10"
+        android:hint="@string/name12"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etcontactno"
+        android:layout_alignLeft="@+id/etname"
+        android:layout_alignStart="@+id/etname"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:hint="@string/address12"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etcontactno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etaddress"
+        android:layout_alignStart="@+id/etaddress"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="@string/contact_no12"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etcontactno"
+        android:layout_alignStart="@+id/etcontactno"
+        android:layout_below="@+id/etcontactno"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/email12"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etemail"
+        android:layout_alignRight="@+id/etemail"
+        android:layout_below="@+id/etemail"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etpassword"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/etpassword"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:onClick="sub"
+        android:text="@string/submit" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Submit"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/Submit"
+        android:layout_marginTop="44dp"
+        android:text="@string/register_page11" />
+</RelativeLayout>
